@@ -6,13 +6,34 @@
   
   <properties>
   	<java.version>1.7</java.version>
+  	<spring.version>4.1.6.RELEASE</spring.version>
   </properties>
   
   <dependencies>
+  	<!-- Spring的基础依赖 -->
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-context</artifactId>
-  		<version>4.1.6.RELEASE</version>
+  		<version>${spring.version}</version>
+  	</dependency>
+  	
+  	<!-- Spring AOP支持 -->
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-aop</artifactId>
+  		<version>${spring.version}</version>
+  	</dependency>
+  		
+  	<!-- aspectj 支持 -->
+  	<dependency>
+  		<groupId>org.aspectj</groupId>
+  		<artifactId>aspectjrt</artifactId>
+  		<version>1.8.5</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.aspectj</groupId>
+  		<artifactId>aspectjweaver</artifactId>
+  		<version>1.8.5</version>
   	</dependency>
   </dependencies>
   
