@@ -6,6 +6,7 @@ public class TestBean {
 	
 	public TestBean(String content){
 		super();
+		
 		this.content = content;
 	}
 	
